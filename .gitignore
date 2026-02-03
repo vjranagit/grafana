@@ -1,0 +1,41 @@
+# Binaries
+/grafana-ops
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+/vendor/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.db
+*.sqlite
+*.sqlite3
+/data/
+
+# Configuration
+*.local.hcl
+.env
+.env.local
+
+# Build artifacts
+/dist/
+/build/
